@@ -8,15 +8,15 @@ do {
 let number2 = 10
 do{
         console.log(n)
-        n=n -1
+        number2=number2 -1
 
-}while(n>=1)
+}while(number2>=1)
 
 const name="barbara"
-let n= name.lenght -1
+let index = name.lenght -1
 do{
-    console.log(name[n])
-    n=n-1
+    console.log(name[index])
+    index--
 }while(n>=0)
 
 
