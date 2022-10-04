@@ -1,0 +1,10 @@
+Sumar
+Primero crear una página con un input, el usuario deberá ingresar la formula de suma en el formato "1+10+100+200"
+
+Algoritmo
+Crear pagina con input y un botón "calcular" [OK]
+Hacer una función para el evento click [OK]
+Recuperar el valor del input (document.getElementById().value)
+Dividir el texto por el simbolo "+" (obtenemos un arreglo) (arreglo.split('+'))
+Recorremos con un for el arreglo, y vamos a ir sumando a una variable el numero que tengo en ese momento
+Imprimir el resultado en console y en html
