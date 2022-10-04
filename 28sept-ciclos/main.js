@@ -26,23 +26,17 @@ while(aux<notas.length){
                 console.log("acumulado:",suma)
             
         }
+
+            //desafio de for;
+
+
         console.log("el total es", contador)
 
-        const numbers = [2,5,7,12,15,19]
+        const numbers = [2,5,10,12,15,19]
     
-
-let index = <10
-let suma2 = >10
-do{
-
-    sum += numbers[index]
-    console.log(suma2)
-    index++
-}while (index < numbers.length)
-console.log("el total es:",suma2)
-
-    
+        let suma2 = 0
+        for(contador=0; <numbers.length;contador ++){ 
+            suma +=numbers[contador]
 
 
-    
-
+   
