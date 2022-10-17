@@ -17,7 +17,7 @@ let index = name.lenght -1
 do{
     console.log(name[index])
     index--
-}while(n>=0)
+}while(index>=0)
 
 
 

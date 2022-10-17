@@ -1,4 +1,4 @@
-const isAdult=(age) => { //evaluacion la condicionde edad para verdadero o falso
+const isAdult=(age) => { //evaluacion la condicion de edad para verdadero o falso
     if (age >= 18) {
         return true
     } else {
@@ -19,4 +19,4 @@ const isAdult=(age) => { //evaluacion la condicionde edad para verdadero o falso
 
     const userAge= prompt ("indicarnos tu edad")
 
-    logmessage (transformage (userAge)
+    logmessage (transformage (userAge))
